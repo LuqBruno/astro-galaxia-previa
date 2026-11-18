@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="pt-BR" data-universe="astro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Astro Lanches & Galáxia Açaí — Içara (prévia)</title>
+<meta name="description" content="Prévia conceitual: burgers da Astro Lanches e copos da Galáxia Açaí, no mesmo endereço em Içara/SC.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#160a0c">
+<link rel="icon" href="assets/img/avatar-astro.webp" type="image/webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&family=Unbounded:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/img/crocbacon.webp">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<div class="notice" role="note">
+  <img src="assets/bruno.svg" alt="" aria-hidden="true" class="bl-mark" width="16" height="22">
+  <span>Prévia conceitual de Bruno Luque · não é o site oficial da Astro Lanches / Galáxia Açaí</span>
+</div>
+
+<header class="topbar" id="topo">
+  <a class="brand" href="#inicio" aria-label="Astro Lanches e Galáxia Açaí, início">
+    <span class="brand-dot brand-dot--astro" aria-hidden="true"></span><span class="brand-dot brand-dot--galaxia" aria-hidden="true"></span>
+    <span class="brand-name">Astro <i>&amp;</i> Galáxia</span>
+  </a>
+  <nav class="nav" id="nav" aria-label="Seções">
+    <a href="#burgers">Burgers</a>
+    <a href="#acai">Açaí</a>
+    <a href="#dividir">Para dividir</a>
+    <a href="#cardapio">Cardápio</a>
+    <a href="#endereco">Onde estamos</a>
+  </nav>
+  <a class="btn btn--sm btn--solid" href="https://app.cardapioweb.com/astro_lanches" target="_blank" rel="noopener">Pedir agora</a>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav"><span class="sr-only">Abrir menu</span><span aria-hidden="true"></span></button>
+</header>
+
+<main id="conteudo">
+
+<!-- HERO: dois planetas -->
+<section class="hero" id="inicio" aria-labelledby="hero-title">
+  <div class="sky sky--astro" aria-hidden="true"></div>
+  <div class="sky sky--galaxia" aria-hidden="true"></div>
+  <canvas class="stars" aria-hidden="true"></canvas>
+
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="pin" aria-hidden="true"></span>Içara/SC · Rua Ipiranga, 547</p>
+      <h1 id="hero-title" class="sr-only">Astro Lanches e Galáxia Açaí, em Içara</h1>
+      <div class="title" aria-hidden="true">
+        <span class="title-line"><span class="t t--astro">Astro</span><span class="t t--galaxia">Galáxia</span></span>
+        <span class="title-line title-line--sub"><span class="t t--astro">lanches</span><span class="t t--galaxia">açaí</span></span>
+      </div>
+      <p class="lead">
+        <span class="l l--astro">Burgers, xis, combos e porções para dividir. Peça pelo cardápio online.</span>
+        <span class="l l--galaxia">Copos premium de 550 ml e açaí no tamanho que você escolher. Mesmo endereço, mesmo cardápio.</span>
+      </p>
+
+      <div class="switch" role="group" aria-label="Escolha o planeta">
+        <button type="button" class="switch-opt" data-go="astro" aria-pressed="true">
+          <img src="assets/img/avatar-astro.webp" alt="" width="40" height="40">
+          <span><b>Lanches</b><small>Astro</small></span>
+        </button>
+        <button type="button" class="switch-opt" data-go="galaxia" aria-pressed="false">
+          <img src="assets/img/avatar-galaxia.webp" alt="" width="40" height="40">
+          <span><b>Açaí</b><small>Galáxia</small></span>
+        </button>
+        <span class="switch-thumb" aria-hidden="true"></span>
+      </div>
+
+      <div class="hero-cta">
+        <a class="btn btn--solid btn--lg" href="https://app.cardapioweb.com/astro_lanches" target="_blank" rel="noopener">Pedir no cardápio <span aria-hidden="true">↗</span></a>
+        <a class="btn btn--ghost btn--lg js-hero-anchor" href="#burgers">Ver os burgers</a>
+      </div>
+      <p class="hero-note">Lanches e açaí no mesmo cardápio online · Rua Ipiranga, 547</p>
+    </div>
+
+    <div class="system" aria-hidden="false">
+      <svg class="orbit-line" viewBox="0 0 600 600" aria-hidden="true"><ellipse class="ring2" cx="300" cy="300" rx="300" ry="122"/><ellipse cx="300" cy="300" rx="286" ry="96"/></svg>
+      <div class="planet">
+        <div class="planet-glow" aria-hidden="true"></div>
+        <img class="planet-img planet-img--astro" src="assets/img/crocbacon.webp" width="700" height="700" alt="Crocbacon da Astro Lanches">
+        <img class="planet-img planet-img--galaxia" src="assets/img/quasar.webp" width="700" height="700" alt="Copo Quasar de Nutella, 550 ml, da Galáxia Açaí" loading="lazy">
+      </div>
+      <div class="sats" aria-hidden="true"></div>
+      <p class="planet-tag"><span class="pt pt--astro">Crocbacon · R$ 34</span><span class="pt pt--galaxia">Quasar de Nutella 550 ml · R$ 33</span></p>
+    </div>
+  </div>
+  <a class="scroll-cue" href="#burgers"><span class="sr-only">Descer para os burgers</span><span aria-hidden="true"></span></a>
+</section>
+
+<!-- BURGERS -->
+<section class="burgers" id="burgers" aria-labelledby="burgers-title">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="kicker kicker--astro"><img src="assets/img/avatar-astro.webp" alt="" width="28" height="28">Astro Lanches</p>
+      <h2 id="burgers-title" class="h2">Escolha a próxima <em>missão.</em></h2>
+      <p class="sec-lead">Nove burgers no cardápio, de Cheeseburger a Dois andares. Três deles em destaque logo abaixo.</p>
+    </header>
+
+    <div class="burgers-grid">
+      <figure class="tall-photo reveal-img">
+        <img src="assets/img/astro-salad.webp" width="720" height="1280" alt="Burger com salada, cebola roxa e molho, segurado sobre a bancada" loading="lazy">
+        <figcaption>Do perfil @astroolanches</figcaption>
+      </figure>
+
+      <div class="burgers-main">
+        <div class="feature" aria-roledescription="carrossel" aria-label="Burgers em destaque">
+          <div class="feature-track" tabindex="0">
+            <article class="fcard" aria-label="Crocbacon">
+              <img src="assets/img/crocbacon.webp" width="700" height="700" alt="Crocbacon: burger com bacon e molho claro escorrendo" loading="lazy">
+              <div class="fcard-body"><h3>Crocbacon</h3><p class="price">R$ 34,00</p></div>
+            </article>
+            <article class="fcard" aria-label="Cebola Moon">
+              <img src="assets/img/cebola-moon.webp" width="700" height="700" alt="Cebola Moon: burger com cebola caramelizada e queijo" loading="lazy">
+              <div class="fcard-body"><h3>Cebola Moon</h3><p class="price">R$ 34,00</p></div>
+            </article>
+            <article class="fcard" aria-label="Lua de Mel">
+              <img src="assets/img/lua-de-mel.webp" width="700" height="700" alt="Lua de Mel: burger com cebola crispy e molho branco" loading="lazy">
+              <div class="fcard-body"><h3>Lua de Mel</h3><p class="price">R$ 39,00</p></div>
+            </article>
+          </div>
+          <div class="feature-ctrl">
+            <button type="button" class="round-btn" data-dir="-1" aria-label="Burger anterior">←</button>
+            <span class="feature-count" aria-live="polite">1 / 3</span>
+            <button type="button" class="round-btn" data-dir="1" aria-label="Próximo burger">→</button>
+          </div>
+        </div>
+
+        <div class="lineup">
+          <h3 class="lineup-title">Linha completa de burgers</h3>
+          <ul class="rows" id="rows-burgers"></ul>
+          <a class="btn btn--solid" href="https://app.cardapioweb.com/astro_lanches" target="_blank" rel="noopener">Montar o pedido <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HORIZONTE: o planeta roxo nasce -->
+<section class="horizon" aria-label="Transição para o Galáxia Açaí">
+  <div class="horizon-planet" aria-hidden="true"><img src="assets/img/avatar-galaxia.webp" alt="" width="150" height="150" loading="lazy"></div>
+  <div class="horizon-copy">
+    <p class="horizon-small">Rua Ipiranga, 547</p>
+    <p class="horizon-big">Mesmo endereço.<br><span>Outro planeta.</span></p>
+  </div>
+</section>
+
+<!-- AÇAÍ -->
+<section class="acai" id="acai" aria-labelledby="acai-title">
+  <div class="wrap">
+    <header class="sec-head sec-head--light">
+      <p class="kicker kicker--galaxia"><img src="assets/img/avatar-galaxia.webp" alt="" width="28" height="28">Galáxia Açaí</p>
+      <h2 id="acai-title" class="h2">Copos premium, <em>uma estrela cada.</em></h2>
+      <p class="sec-lead">Onze copos com nome de céu profundo. Toque numa estrela para ver o copo.</p>
+    </header>
+
+    <div class="constellation">
+      <div class="sky-map" role="radiogroup" aria-label="Copos premium">
+        <svg class="sky-lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"></svg>
+      </div>
+      <div class="cup-panel" aria-live="polite">
+        <div class="porthole"><img id="cup-img" src="assets/img/quasar.webp" alt="" width="240" height="240"><span class="porthole-empty" hidden>Foto a confirmar</span></div>
+        <div class="cup-info">
+          <p class="cup-kicker">Copo premium</p>
+          <h3 id="cup-name">Quasar de Nutella 550ml</h3>
+          <p class="price price--big" id="cup-price">R$ 33,00</p>
+          <a class="btn btn--solid" href="https://app.cardapioweb.com/astro_lanches" target="_blank" rel="noopener">Pedir este copo <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="acai-split">
+      <div class="sizes">
+        <h3 class="h3">Monte seu açaí</h3>
+        <p class="sizes-lead">Quatro tamanhos. A altura de cada copo segue o volume.</p>
+        <div class="cups" id="cups"></div>
+      </div>
+      <figure class="acai-photo reveal-img">
+        <img src="assets/img/galaxia-pistache.webp" width="900" height="900" alt="Dois copos de açaí com creme verde e morangos sobre fundo magenta" loading="lazy">
+        <figcaption>Do perfil @galaxia.acai</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- PARA DIVIDIR -->
+<section class="dividir" id="dividir" aria-labelledby="dividir-title">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="kicker kicker--astro">Combos, porções e tábuas</p>
+      <h2 id="dividir-title" class="h2">Para pedir <em>em tripulação.</em></h2>
+    </header>
+    <div class="dividir-grid">
+      <figure class="combo-hero reveal-img">
+        <img src="assets/img/lover-combo.webp" width="700" height="700" alt="Lover Combo: dois xis com milho, batata frita e molho" loading="lazy">
+        <figcaption><b>Lover Combo</b><span class="price">R$ 69,90</span></figcaption>
+      </figure>
+      <div class="dividir-lists">
+        <div class="dlist"><h3 class="h3">Servem até 2 pessoas</h3><ul class="rows rows--compact" id="rows-porcoes"></ul></div>
+        <div class="dlist"><h3 class="h3">Tábuas</h3><ul class="rows rows--compact" id="rows-tabuas"></ul></div>
+        <div class="dlist"><h3 class="h3">Combo casal</h3><ul class="rows rows--compact" id="rows-casal"></ul></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARDÁPIO COMPLETO -->
+<section class="menu" id="cardapio" aria-labelledby="menu-title">
+  <div class="wrap">
+    <header class="menu-head">
+      <div>
+        <h2 id="menu-title" class="h2">Cardápio inteiro</h2>
+        <p class="sec-lead">118 itens observados no cardápio online em 18/11/2026. Valores e disponibilidade são confirmados no pedido.</p>
+      </div>
+      <label class="search"><span class="sr-only">Buscar no cardápio</span><input type="search" id="menu-search" placeholder="Buscar: bacon, nutella, batata…" autocomplete="off"></label>
+    </header>
+    <div class="tabs" role="tablist" aria-label="Categorias do cardápio" id="menu-tabs"><span class="tab-ind" aria-hidden="true"></span></div>
+    <div class="menu-panel" id="menu-panel" role="tabpanel" tabindex="0"></div>
+    <noscript><p>O cardápio completo está em <a href="https://app.cardapioweb.com/astro_lanches">app.cardapioweb.com/astro_lanches</a>.</p></noscript>
+  </div>
+</section>
+
+<!-- ENDEREÇO -->
+<section class="endereco" id="endereco" aria-labelledby="end-title">
+  <div class="wrap end-grid">
+    <div>
+      <p class="kicker kicker--plain">Onde estamos</p>
+      <h2 id="end-title" class="end-address">Rua Ipiranga, 547<span>Centro · Içara/SC · 88820-000</span></h2>
+      <div class="end-cta">
+        <a class="btn btn--solid btn--lg" href="https://app.cardapioweb.com/astro_lanches" target="_blank" rel="noopener">Pedir no cardápio <span aria-hidden="true">↗</span></a>
+        <a class="btn btn--ghost btn--lg" href="https://wa.me/5548992120852" target="_blank" rel="noopener">WhatsApp (48) 99212-0852</a>
+        <a class="btn btn--ghost btn--lg" href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Ipiranga+547+Centro+I%C3%A7ara+SC" target="_blank" rel="noopener">Ver no mapa</a>
+      </div>
+    </div>
+    <div class="hours">
+      <h3 class="h3">Horário no cardápio online</h3>
+      <dl>
+        <div><dt>Segunda e terça</dt><dd>18h45 – 23h30</dd></div>
+        <div><dt>Quarta a domingo</dt><dd>14h – 23h30</dd></div>
+      </dl>
+      <p class="hours-note">Horário publicado no cardápio em 18/11/2026. Os perfis do Instagram mostram outro horário: confirmar antes da versão final.</p>
+      <ul class="socials">
+        <li><a href="https://www.instagram.com/astroolanches/" target="_blank" rel="noopener"><img src="assets/img/avatar-astro.webp" alt="" width="32" height="32">@astroolanches</a></li>
+        <li><a href="https://www.instagram.com/galaxia.acai/" target="_blank" rel="noopener"><img src="assets/img/avatar-galaxia.webp" alt="" width="32" height="32">@galaxia.acai</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <img src="assets/bruno.svg" alt="" aria-hidden="true" class="bl-sign" width="28" height="38">
+    <p>Prévia conceitual criada por Bruno Luque para apresentação. Não é o site oficial da Astro Lanches / Galáxia Açaí. Nomes, preços e fotos vêm dos canais públicos da empresa (Instagram e CardápioWeb), consultados em 18/11/2026; uma versão publicada depende da autorização da empresa.</p>
+  </div>
+</footer>
+
+<div class="dock" aria-label="Pedido rápido">
+  <a class="btn btn--solid" href="https://app.cardapioweb.com/astro_lanches" target="_blank" rel="noopener">Pedir no cardápio <span aria-hidden="true">↗</span></a>
+  <a class="dock-wa" href="https://wa.me/5548992120852" target="_blank" rel="noopener" aria-label="WhatsApp (48) 99212-0852"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 0 0 1.9-1.3 2.3 2.3 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg></a>
+</div>
+
+<script src="cardapio.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
